@@ -1,0 +1,81 @@
+body {
+  background-color: rgba(18, 27, 27, 0.836);
+  background-image: linear-gradient(45deg, rgb(16, 16, 20), rgb(15, 147, 235));
+}
+.container {
+  background-color: rgb(221, 221, 120);
+  box-shadow: 0px 5px 14px 0px black;
+  box-shadow: inset 0px 2px 18px 1px #615a5a;
+  width: 80%;
+  height: 15em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 1em;
+  border: solid 5px rgba(165, 163, 157, 0.384);
+  margin: 0px 0px 2em;
+}
+.superContainer {
+  display: flex;
+  justify-content: center;
+}
+.blocks {
+  border: solid 5px rgba(165, 163, 157, 0.384);
+  margin: 0px 0px 2em;
+  width: 100px;
+  background-color: rgba(61, 143, 61, 0.822);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  font-family: fantasy;
+  color: wheat;
+}
+.interface {
+  display: flex;
+  justify-content: stretch;
+  width: 80%;
+  /* background-color: #fff; */
+}
+.btn-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: rgb(205, 235, 134);
+  border-radius: 1em;
+  border: solid 5px rgba(165, 163, 157, 0.384);
+  box-shadow: inset 0px 2px 18px 1px #615a5a;
+}
+
+.btn-control {
+  width: 10em;
+  height: 2em;
+  border-radius: 0.5em;
+  background-color: #2b80b9ce;
+  border: 0px;
+  margin: 0px 10px;
+  cursor: pointer;
+  box-shadow: 0px 5px 10px 0px black;
+}
+.btn-control:hover {
+  background-color: #0d8ee4ce;
+}
+
+.btn-control:focus {
+  outline: none;
+  border: none;
+  background-color: #0d8ee4ce;
+  box-shadow: inset 0px 2px 18px 1px #615a5a;
+  border: solid 2px rgba(186, 226, 7, 0.815);
+}
+
+.imgRef {
+  width: 17em;
+  margin: 0em 4em;
+}
+
+#stadistics {
+  background-color: #fff;
+  width: 33%;
+}
